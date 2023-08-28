@@ -21,7 +21,7 @@ while True:
      Digite o valor de deposito: R$"""))
         if valor>0:
               saldo+=valor
-              extrato+=f"Deposito: R${valor}/n"
+              extrato+=f"Deposito: R${valor}\n"
             
         else:
              print("""
